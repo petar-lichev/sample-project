@@ -4,7 +4,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 @Test(groups = {"GROUP 1"})
-public class SampleTest extends AbstractClass{
+public class SampleTest extends BaseClass {
 
     @BeforeClass(alwaysRun = true, dependsOnMethods = {"setupMethod2"})
     public void setupMethod3(){

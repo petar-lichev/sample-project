@@ -2,7 +2,7 @@ package org.example;
 
 import org.testng.annotations.BeforeClass;
 
-public class AbstractClass {
+public class BaseClass {
 
 
     @BeforeClass(alwaysRun = true)
